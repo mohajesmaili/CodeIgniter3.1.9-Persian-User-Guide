@@ -2780,7 +2780,7 @@ a.wy-text-neutral:hover {
 h1,h2,h3,h4,h5,h6,legend {
  margin-top:0;
  font-weight:700;
- font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif
+ font-family:byekan;
 }
 p {
  line-height:24px;
