@@ -5,9 +5,14 @@
 }
 
 @font-face {
- font-family: 'Byekan';
- src:  url("../fonts/Yekan.ttf");
-  format("ttf");
+ font-family: 'Bkoodak';
+ src:  url("../fonts/Bkoodak.ttf");
+format("ttf");
+}
+@font-face {
+ font-family: 'Nazanin';
+ src:  url("../fonts/Nazanin.ttf");
+format("ttf");
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {
@@ -2718,7 +2723,7 @@ html {
  overflow-x:hidden
 }
 body {
- font-family:"BYEKAN";
+ font-family:"Bkoodak";
  font-weight:normal;
  color:#404040;
  min-height:100%;
@@ -2780,7 +2785,7 @@ a.wy-text-neutral:hover {
 h1,h2,h3,h4,h5,h6,legend {
  margin-top:0;
  font-weight:700;
- font-family:byekan;
+ font-family:"Nazanin";
 }
 p {
  line-height:24px;
@@ -2831,7 +2836,8 @@ code.code-large,.rst-content tt.code-large {
 .wy-plain-list-disc,.rst-content .section ul,.rst-content .toctree-wrapper ul,article ul {
  list-style:disc;
  line-height:24px;
- margin-bottom:24px
+ margin-bottom:24px;
+ margin-right: 30px;
 }
 .wy-plain-list-disc li,.rst-content .section ul li,.rst-content .toctree-wrapper ul li,article ul li {
  list-style:disc;
@@ -2855,7 +2861,8 @@ code.code-large,.rst-content tt.code-large {
 .wy-plain-list-decimal,.rst-content .section ol,.rst-content ol.arabic,article ol {
  list-style:decimal;
  line-height:24px;
- margin-bottom:24px
+ margin-bottom:24px;
+ margin-right: 30px;
 }
 .wy-plain-list-decimal li,.rst-content .section ol li,.rst-content ol.arabic li,article ol li {
  list-style:decimal;
@@ -3415,7 +3422,6 @@ div[class^='highlight'] pre {
  cursor:pointer
 }
 .wy-nav-content-wrap {
- margin-left:-300px;
  background:#fcfcfc;
  min-height:100%;
  margin-right: 300px;

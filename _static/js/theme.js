@@ -40,7 +40,7 @@ $(document).ready(function () {
             $('#nav').hide();
             $('#nav2').hide();
             $('body').css({background: '#edf0f2;'});
-            $('.wy-nav-content-wrap').css({background: 'none repeat scroll 0 0 #fcfcfc;', 'margin-left': '300px'});
+            $('.wy-nav-content-wrap').css({background: 'none repeat scroll 0 0 #fcfcfc;', 'margin-right': '300px'});
             $('.wy-nav-side').show();
         }
     );
@@ -96,7 +96,7 @@ $(window).on('resize', function(){
     }
     // change margin
     else if (getCookie('ciNav') == 'no' && $(window).width() > 768) {
-        $('.wy-nav-content-wrap').css({'margin-left': '300px'});
+        $('.wy-nav-content-wrap').css({'margin-right': '300px'});
     }
 });
 
