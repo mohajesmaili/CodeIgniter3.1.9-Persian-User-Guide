@@ -1955,7 +1955,7 @@ button[disabled] {
  background-color:#27AE60;
  text-decoration:none;
  font-weight:normal;
- font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+ font-family:"Nazanin";
  box-shadow:0px 1px 2px -1px rgba(255,255,255,0.5) inset,0px -2px 0px 0px rgba(0,0,0,0.1) inset;
  outline-none:false;
  vertical-align:middle;
@@ -2352,7 +2352,7 @@ input[type="text"],input[type="password"],input[type="email"],input[type="url"],
  display:inline-block;
  border:1px solid #ccc;
  font-size:80%;
- font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+ font-family:"Nazanin";
  box-shadow:inset 0 1px 3px #ddd;
  border-radius:0;
  -webkit-transition:border 0.3s linear;
@@ -2603,7 +2603,7 @@ select[disabled],textarea[disabled],input[readonly],select[readonly],textarea[re
  float:left
 }
 .float-right {
- float:right
+ float:left;
 }
 .full-width {
  width:100%
@@ -2904,7 +2904,8 @@ code.code-large,.rst-content tt.code-large {
  padding:0px;
  overflow-x:auto;
  background:#fff;
- margin:1px 0 24px 0
+ margin:1px 0 24px 0;
+ direction: ltr;
 }
 .codeblock div[class^='highlight'],pre.literal-block div[class^='highlight'],.rst-content .literal-block div[class^='highlight'],div[class^='highlight'] div[class^='highlight'] {
  border:none;
