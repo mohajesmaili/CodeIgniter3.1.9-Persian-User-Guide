@@ -5,13 +5,8 @@
 }
 
 @font-face {
- font-family: 'Bkoodak';
- src:  url("../fonts/Bkoodak.ttf");
-format("ttf");
-}
-@font-face {
- font-family: 'Nazanin';
- src:  url("../fonts/Nazanin.ttf");
+ font-family: 'Vazir-Light';
+ src:  url("../fonts/Vazir-Light.ttf");
 format("ttf");
 }
 
@@ -1955,7 +1950,7 @@ button[disabled] {
  background-color:#27AE60;
  text-decoration:none;
  font-weight:normal;
- font-family:"Nazanin";
+ font-family:"Vazir-Light";
  box-shadow:0px 1px 2px -1px rgba(255,255,255,0.5) inset,0px -2px 0px 0px rgba(0,0,0,0.1) inset;
  outline-none:false;
  vertical-align:middle;
@@ -1968,7 +1963,8 @@ button[disabled] {
  user-select:none;
  -webkit-transition:all 0.1s linear;
  -moz-transition:all 0.1s linear;
- transition:all 0.1s linear
+ transition:all 0.1s linear;
+ font-size: 13px;
 }
 .btn-hover {
  background:#2e8ece;
@@ -2352,12 +2348,13 @@ input[type="text"],input[type="password"],input[type="email"],input[type="url"],
  display:inline-block;
  border:1px solid #ccc;
  font-size:80%;
- font-family:"Nazanin";
+ font-family:"Vazir-Light";
  box-shadow:inset 0 1px 3px #ddd;
  border-radius:0;
  -webkit-transition:border 0.3s linear;
  -moz-transition:border 0.3s linear;
- transition:border 0.3s linear
+ transition:border 0.3s linear;
+ font-size: 12px;
 }
 input[type="datetime-local"] {
  padding:0.34375em 0.625em
@@ -2723,7 +2720,7 @@ html {
  overflow-x:hidden
 }
 body {
- font-family:"Bkoodak";
+ font-family:"Vazir-Light";
  font-weight:normal;
  color:#404040;
  min-height:100%;
@@ -2785,7 +2782,7 @@ a.wy-text-neutral:hover {
 h1,h2,h3,h4,h5,h6,legend {
  margin-top:0;
  font-weight:700;
- font-family:"Nazanin";
+ font-family:"Vazir-Light";
 }
 p {
  line-height:24px;
